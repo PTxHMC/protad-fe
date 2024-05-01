@@ -7,9 +7,9 @@ import {
 } from '@/components/ui/carousel';
 import { BatchItems, KegiatanItems, PembelajaranItems } from '@/constants';
 
-const EventsSection = () => {
+const OurProgram = () => {
   return (
-    <section id="events" className="container min-h-screen py-32">
+    <section className="container min-h-screen py-32">
       <div className="flex flex-col justify-center items-center gap-12 md:px-24 px-2">
         <div className="w-full space-y-4">
           <h1 className="text-4xl text-protad-primary font-bold">
@@ -140,4 +140,4 @@ const EventsSection = () => {
   );
 };
 
-export default EventsSection;
+export default OurProgram;
