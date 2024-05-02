@@ -1,6 +1,7 @@
 import React from 'react';
 import MembersCarousel from './components/MembersCarousel';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const OurMember = () => {
   return (
@@ -18,12 +19,14 @@ const OurMember = () => {
       <div className="px-12">
         <MembersCarousel />
       </div>
-      <Button
-        variant="outline"
-        className="bg-protad-secondary text-protad-primary hover:text-protad-primary"
-      >
-        Show More
-      </Button>
+      <Link href="/members">
+        <Button
+          variant="outline"
+          className="bg-protad-secondary text-protad-primary hover:text-protad-primary"
+        >
+          Show More
+        </Button>
+      </Link>
     </section>
   );
 };

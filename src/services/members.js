@@ -3,8 +3,7 @@ import axios from 'axios';
 export const getMembers = async () => {
   try {
     const response = await axios.get('http://127.0.0.1:3333/api/members');
-    console.log(response.data.members);
-    return response.data.members.data;
+    return response.data;
   } catch (error) {
     console.log(error);
   }
