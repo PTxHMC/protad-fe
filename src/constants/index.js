@@ -3,7 +3,7 @@ import { getAssetUrl } from '@/lib/utils';
 export const MenuItems = [
   {
     id: 1,
-    path: '#home',
+    path: '/',
     title: 'Home'
   },
   {

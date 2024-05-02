@@ -27,7 +27,7 @@ const Navbar = ({ textColor, buttonBg, theme }) => {
             variant="outline"
             className={`${buttonBg} rounded-sm ml-4 px-6 ${textColor}`}
           >
-            <Link href="#">Join Us</Link>
+            <Link href="/join-us">Join Us</Link>
           </Button>
         </div>
       </div>
