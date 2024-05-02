@@ -52,7 +52,8 @@ module.exports = {
           foreground: 'hsl(var(--card-foreground))'
         },
         protad: {
-          primary: '#2F518A'
+          primary: '#2F518A',
+          secondary: '#2F518A33'
         }
       },
       borderRadius: {

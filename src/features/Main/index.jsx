@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import HeroSection from './sections/Hero';
 import Footer from '@/components/Footer';
 import OurProgram from './sections/OurProgram';
+import OurMember from './sections/OurMember';
 
 const MainPage = () => {
   return (
@@ -11,6 +12,7 @@ const MainPage = () => {
       <BackgroundWave />
       <HeroSection />
       <OurProgram />
+      <OurMember />
       <Footer />
     </main>
   );
