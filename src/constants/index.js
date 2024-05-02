@@ -8,13 +8,13 @@ export const MenuItems = [
   },
   {
     id: 2,
-    path: '#events',
-    title: 'Events'
+    path: '#programs',
+    title: 'Programs'
   },
   {
     id: 3,
-    path: '#about',
-    title: 'About'
+    path: '#members',
+    title: 'Members'
   }
 ];
 

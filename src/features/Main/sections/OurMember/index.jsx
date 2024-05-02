@@ -4,7 +4,10 @@ import { Button } from '@/components/ui/button';
 
 const OurMember = () => {
   return (
-    <section className="container min-h-screen flex flex-col justify-center items-center gap-6 md:px-36 py-32">
+    <section
+      id="members"
+      className="container min-h-screen flex flex-col justify-center items-center gap-6 md:px-36 py-32"
+    >
       <h1 className="text-center text-4xl text-protad-primary font-bold">
         Our Member
       </h1>

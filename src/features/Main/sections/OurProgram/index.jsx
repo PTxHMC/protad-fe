@@ -9,7 +9,7 @@ import { BatchItems, KegiatanItems, PembelajaranItems } from '@/constants';
 
 const OurProgram = () => {
   return (
-    <section className="container min-h-screen py-32">
+    <section id="programs" className="container min-h-screen py-32">
       <div className="flex flex-col justify-center items-center gap-12 md:px-24 px-2">
         <div className="w-full space-y-4">
           <h1 className="text-4xl text-protad-primary font-bold">
