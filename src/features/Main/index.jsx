@@ -15,7 +15,11 @@ const MainPage = () => {
 
   return (
     <main id="home">
-      <Navbar />
+      <Navbar
+        textColor="text-background"
+        buttonBg="bg-transparent"
+        theme="light"
+      />
       <BackgroundWave />
       <HeroSection />
       <OurProgram />

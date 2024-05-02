@@ -5,12 +5,12 @@ import { MenuItems } from '@/constants';
 import NavDropdown from './NavDropdown';
 import ProtadLogo from '../ProtadLogo';
 
-const Navbar = () => {
+const Navbar = ({ textColor, buttonBg, theme }) => {
   return (
     <header className="container sticky top-0 z-10 shadow-sm border-none">
       <div className="py-4 flex items-center justify-between h-full">
-        <ProtadLogo />
-        <nav className="text-background ml-auto font-semibold text-xs">
+        <ProtadLogo theme={theme} />
+        <nav className={`${textColor} ml-auto font-semibold text-xs`}>
           <ul className="hidden md:flex gap-x-6">
             {MenuItems.map(item => (
               <li key={item.id}>
@@ -25,7 +25,7 @@ const Navbar = () => {
             asChild
             size="sm"
             variant="outline"
-            className="bg-background rounded-sm ml-4 px-6 text-protad-primary"
+            className={`${buttonBg} rounded-sm ml-4 px-6 ${textColor}`}
           >
             <Link href="#">Join Us</Link>
           </Button>
